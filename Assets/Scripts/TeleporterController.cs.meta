@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/TeleporterController.cs.meta
 guid: ded6e5ff0e105f343bb8f8017ec61f54
+========
+guid: f6b04a10afc4fec41901139205a95bd6
+>>>>>>>> origin/Viet:Assets/Scripts/ScaleButtonRight.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

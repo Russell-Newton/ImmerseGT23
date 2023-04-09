@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/Pins.unity.meta
 guid: c55d6e344ab8fc841ac78220397bf714
+========
+guid: 795b31408fe260547aea9b0540edfda0
+folderAsset: yes
+>>>>>>>> origin/Viet:Assets/XRI.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
