@@ -21,7 +21,6 @@ public class XRCameraPoseCopy : MonoBehaviour
         var rigToCopy = GameObject.Find("XR Rig");
         cameraToCopy = rigToCopy.GetComponentInChildren<Camera>();
         cameraToCopyTo = this.GetComponentInParent<Camera>();
-        Debug.Log(cameraToCopy);
     }
 
     // Update is called once per frame
