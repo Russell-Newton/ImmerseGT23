@@ -108,6 +108,6 @@ public class TeleporterController : MonoBehaviour
 
     public Transform GetTeleportTransform()
     {
-        return cameraContainer.transform;
+        return portalTarget.transform;
     }
 }
