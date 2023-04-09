@@ -29,9 +29,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Bowling.unity
     guid: 8154aa87155a87043a468a6535e9f298
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StoreMock.unity
     guid: 9720aebb203595f47863a188e3479c58
+  - enabled: 1
+    path: Assets/Scenes/Pins.unity
+    guid: c55d6e344ab8fc841ac78220397bf714
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
