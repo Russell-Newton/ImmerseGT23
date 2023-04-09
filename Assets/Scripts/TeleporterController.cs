@@ -50,6 +50,7 @@ public class TeleporterController : MonoBehaviour
         cameraContainer.transform.position = portalTarget.transform.position;
         cameraDisplacement = portalTarget.transform.position - new Vector3(rigCamera.transform.position.x, 0, rigCamera.transform.position.z);
 
+        /*
         leftEyeAnchor = new GameObject("Left Eye");
         leftEyeAnchor.transform.parent = cameraContainer.transform;
         leftEye = leftEyeAnchor.AddComponent<Camera>() as Camera;
@@ -59,7 +60,7 @@ public class TeleporterController : MonoBehaviour
         rightEye = rightEyeAnchor.AddComponent<Camera>() as Camera;
         rightEye.projectionMatrix = rigCamera.projectionMatrix;
 
-        /*
+        
         leftMaterial = transform.Find("TeleporterFrame/Left").GetComponent<Renderer>().material;
         if (leftEye.targetTexture != null)
         {
@@ -86,6 +87,7 @@ public class TeleporterController : MonoBehaviour
         cameraContainer.transform.position = rigCamera.transform.position + cameraDisplacement;
         cameraContainer.transform.rotation = rigCamera.transform.rotation;
 
+        /*
         InputDevice leftDevice = InputDevices.GetDeviceAtXRNode(XRNode.LeftEye);
         InputDevice rightDevice = InputDevices.GetDeviceAtXRNode(XRNode.RightEye);
 
@@ -101,6 +103,7 @@ public class TeleporterController : MonoBehaviour
         leftEye.transform.localRotation = leftEyeRotation;
         rightEye.transform.localPosition = rightEyePosition;
         rightEye.transform.localRotation = rightEyeRotation;
+        */
     }
 
     public Transform GetTeleportTransform()
