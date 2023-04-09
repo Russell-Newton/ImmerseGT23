@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Unity.VisualScripting.Generated/VisualScripting.Core/link.xml.meta
+guid: 14b285088aa294d4cbc2c486cc13dc82
+TextScriptImporter:
+=======
 guid: 35452c1e31056e942b4f766bcde6995d
 DefaultImporter:
+>>>>>>> 680d0c6dbe885ee62200fac68ee4856946cf1a3e:Assets/Scenes/IceCream.unity.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

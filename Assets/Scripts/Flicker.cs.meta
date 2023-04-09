@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs.meta
+guid: 2ec2e44d4f149c44fa1d9f46d4faa500
+=======
 guid: 83a216c1744866d4aab21b0bee531353
+>>>>>>> 680d0c6dbe885ee62200fac68ee4856946cf1a3e:Assets/Scripts/Flicker.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
