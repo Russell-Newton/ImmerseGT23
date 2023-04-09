@@ -20,8 +20,8 @@ public class ButtonTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (OVRInput.Get(OVRInput.Button.One)){
+        /*if (OVRInput.Get(OVRInput.Button.One)){
             Debug.Log("A button pressed");
-        }
+        }*/
     }
 }
